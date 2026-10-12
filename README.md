@@ -1,19 +1,14 @@
 # pi-pinned-question
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
+[![Made for Pi](https://img.shields.io/badge/made%20for-Pi-8A2BE2)](https://pi.dev)
+[![pi-package](https://img.shields.io/badge/pi--package-yes-2ea043)](https://pi.dev/packages)
+
 Keep your **latest question** pinned in a sticky bar so it never scrolls away while the answer streams in — built for [Pi](https://github.com/earendil-works/pi).
 
-```
-┌──────────────────────────────────────────────┐
-│  transcript … (scrolls, long answers, tools)  │
-│  …                                            │
-├──────────────────────────────────────────────┤
-│  📌 Why is my build failing on CI?            │  ← sticky, always visible
-│     Did the cache step change?                │
-│  ┌────────────────────────────────────────┐  │
-│  │ > type your next message…               │  │
-│  └────────────────────────────────────────┘  │
-└──────────────────────────────────────────────┘
-```
+<p align="center">
+  <img src="https://raw.githubusercontent.com/fenixc9/pi-pinned-question/main/docs/demo.png" alt="The latest question stays pinned above the editor while the transcript scrolls" width="760">
+</p>
 
 When you are deep in a long transcript, it is easy to lose track of what you actually asked. This extension captures each new question and renders the most recent one in the widget dock directly above the input editor, where it stays put.
 
